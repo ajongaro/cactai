@@ -1,8 +1,18 @@
+* {
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+}
+
+.header-container {
+  color: rgb(44, 187, 44);
+  outline: 1px solid red;
 }
 
 .logo {
@@ -11,8 +21,9 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 1em #1cf231aa);
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
@@ -35,8 +46,4 @@
 
 .card {
   padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }
